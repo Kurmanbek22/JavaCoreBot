@@ -1,5 +1,6 @@
 package peaksoft.javacorebot.bot;
 
+import lombok.Value;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -18,6 +19,7 @@ import java.util.List;
 
 @Component
 public class JavaCoreBot extends TelegramLongPollingBot {
+
 
     private static final Logger logger = LoggerFactory.getLogger(JavaCoreBot.class);
 
